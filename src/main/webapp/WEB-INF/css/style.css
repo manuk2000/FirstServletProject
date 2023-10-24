@@ -1,0 +1,50 @@
+/* Reset some default browser styles */
+body, h1, a {
+    margin: 0;
+    padding: 100px;
+}
+
+/* Apply styles to the container */
+.container {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.aaa{
+    padding: 50px 109px;
+
+}
+/* Style the heading */
+h1 {
+    font-size: 45px;
+    color: #333;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    color: #333;
+}
+
+/* Style the links on hover */
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the links by ID */
+#firstLink {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#secondLink {
+    background-color: #28a745;
+    color: #fff;
+}
